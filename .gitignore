@@ -1,0 +1,46 @@
+# Godot 4 specific ignores
+.godot/
+*.translation
+
+# Godot-specific editor and mono caches
+.import/
+.mono/
+
+# Export builds
+build/
+bin/
+export/
+*.apk
+*.aab
+*.exe
+*.zip
+*.tar.gz
+
+# Keystores and certificates
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Secrets and environment files
+*.env
+*.env.*
+secrets.*
+
+# OS and IDE temporary files
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and crash dumps
+*.log
+*.dmp
+*.crash
+
+# Separate nested game repository
+Project-Trailbeast/
